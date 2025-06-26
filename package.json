@@ -7,10 +7,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "yes | npm install && vite",
-    "build": "yes | npm install && rm -rf node_modules/.vite-temp && tsc -b && vite build",
-    "lint": "yes | npm install && eslint .",
-    "preview": "yes | npm install && vite preview"
+    "dev": "npm install && vite",
+    "build": "npm install && rm -rf node_modules/.vite-temp && tsc -b && vite build",
+    "lint": "npm install && eslint .",
+    "preview": "npm install && vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
