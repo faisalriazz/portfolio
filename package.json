@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "npm install && vite",
     "build": "npm install && rm -rf node_modules/.vite-temp && tsc -b && vite build",
     "lint": "npm install && eslint .",
