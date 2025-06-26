@@ -125,7 +125,7 @@ export const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl transform rotate-3 animate-pulse-glow"></div>
               <div className="relative bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-2xl">
                 <img
-                  src="/images/professional-portrait.jpg"
+                  src="images/professional-portrait.jpg"
                   alt="Faisal Riaz"
                   className="w-full h-96 object-cover rounded-xl"
                 />
